@@ -1,9 +1,19 @@
 algarismoI= [1, "i"]
 
 def converter(numero):
-    if numero == "1":
-        return "I"
-    if numero == "2":
-        return "II"
-    if numero == "3":
-        return "III"
+    #variaveis
+
+    resultado = ""
+    
+    tabela = [(1, 'I')]
+
+    for valor, simbolo in tabela:
+        
+        enquanto_couber = numero // valor
+        if enquanto_couber > 0:
+            resultado += simbolo * enquanto_couber
+            numero %= valor 
+            
+    return resultado
+
+
