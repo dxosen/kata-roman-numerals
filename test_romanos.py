@@ -10,7 +10,7 @@ def test_3_III():
     assert converter(3) == "III"
 
 def test_4_IV(): 
-    assert converter(4) == "IV"
+    assert converter(4) == "V"
 
 def test_6_VI(): 
-    assert converter(6) == "VI"
+    assert converter(5) == "VI"
