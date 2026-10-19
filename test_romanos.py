@@ -14,3 +14,6 @@ def test_5_VI():
 
 def test_6_VII(): 
     assert converter(6) == "VII"
+
+def test_10_X():
+    assert converter(10) == "X"
