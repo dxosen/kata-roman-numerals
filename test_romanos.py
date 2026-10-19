@@ -5,3 +5,6 @@ def test_1_I():
 
 def test_2_II(): 
     assert converter("2") == "II"
+    
+def test_2_III(): 
+    assert converter("3") == "III"
