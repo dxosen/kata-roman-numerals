@@ -5,3 +5,5 @@ def converter(numero):
         return "I"
     if numero == "2":
         return "II"
+    if numero == "3":
+        return "III"
