@@ -10,10 +10,13 @@ def test_3_III():
     assert converter(3) == "III"
 
 def test_5_VI(): 
-    assert converter(5) == "VI"
+    assert converter(5) == "V"
 
 def test_6_VII(): 
-    assert converter(6) == "VII"
+    assert converter(6) == "VI"
 
 def test_10_X():
     assert converter(10) == "X"
+
+def test_4_IV():
+    assert converter(4) == "IV"

@@ -5,7 +5,7 @@ def converter(numero):
 
     resultado = ""
     
-    tabela = [(10, 'X'),(4, 'V'),(1, 'I')]
+    tabela = [(10, 'X'),(5, 'V'),(1, 'I')]
 
     for valor, simbolo in tabela:
         
